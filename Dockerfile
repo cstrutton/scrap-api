@@ -5,6 +5,7 @@ RUN pip install sqlalchemy
 RUN pip install python-multipart
 RUN pip install pyjwt
 RUN pip install passlib[bcrypt]
+RUN pip install ptvsd==4.3.2
 
 EXPOSE 80
 
